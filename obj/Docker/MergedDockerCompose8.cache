@@ -1,0 +1,39 @@
+name: dockercompose3235820571759878912
+services:
+  basket.api:
+    build:
+      context: D:\workspace\DotNetMicroServices
+      dockerfile: Basket.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: basketapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+  basketdb:
+    image: redis:alpine
+    networks:
+      default: null
+  catalog.api:
+    build:
+      context: D:\workspace\DotNetMicroServices
+      dockerfile: Catalog.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: catalogapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+  catalogdb:
+    image: mongo
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose3235820571759878912_default
