@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9QHNB/5gmar7B99ElbBzZ6Y6+Ai61CDFP9BB3PGZ/BUEKqLu6RY6rOyk+mm3PeOIsUmx23JtlFWyNZn6vV9l9Q==",
+  "dgSpecHash": "Si1n25Yv0jmhKqMi16eFe2zOgCMMNjMVzFc117YZSmnT0+aS+N6J/M4BkF2du4B8qriKAW+zOXApH2odojUTVA==",
   "success": true,
-  "projectFilePath": "D:\\workspace\\DotNetMicroServices\\Catalog.API\\Catalog.API.csproj",
+  "projectFilePath": "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "D:\\Program Files\\nuget\\aspnetcore.healthchecks.ui.client\\6.0.5\\aspnetcore.healthchecks.ui.client.6.0.5.nupkg.sha512",
     "D:\\Program Files\\nuget\\aspnetcore.healthchecks.ui.core\\6.0.5\\aspnetcore.healthchecks.ui.core.6.0.5.nupkg.sha512",

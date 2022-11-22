@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace\\DotNetMicroServices\\Catalog.API\\Catalog.API.csproj": {}
+    "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "D:\\workspace\\DotNetMicroServices\\Catalog.API\\Catalog.API.csproj": {
+    "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\DotNetMicroServices\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "D:\\workspace\\DotNetMicroServices\\Catalog.API\\Catalog.API.csproj",
+        "projectPath": "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Catalog.API\\Catalog.API.csproj",
         "packagesPath": "D:\\Program Files\\nuget",
-        "outputPath": "D:\\workspace\\DotNetMicroServices\\Catalog.API\\obj\\",
+        "outputPath": "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

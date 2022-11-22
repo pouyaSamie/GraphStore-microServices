@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace\\DotNetMicroServices\\Basket.API\\Basket.API.csproj": {}
+    "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Basket.API\\Basket.API.csproj": {}
   },
   "projects": {
-    "D:\\workspace\\DotNetMicroServices\\Basket.API\\Basket.API.csproj": {
+    "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Basket.API\\Basket.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\DotNetMicroServices\\Basket.API\\Basket.API.csproj",
+        "projectUniqueName": "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Basket.API\\Basket.API.csproj",
         "projectName": "Basket.API",
-        "projectPath": "D:\\workspace\\DotNetMicroServices\\Basket.API\\Basket.API.csproj",
+        "projectPath": "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Basket.API\\Basket.API.csproj",
         "packagesPath": "D:\\Program Files\\nuget",
-        "outputPath": "D:\\workspace\\DotNetMicroServices\\Basket.API\\obj\\",
+        "outputPath": "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Basket.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

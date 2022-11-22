@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4dNemfFRHFhajhka64qREQke0yNQZzNJJCbWqmIL4wtbQawdqFvI/sgAXr6qkf9FIeu98Zwp4BT+udlQLUHipw==",
+  "dgSpecHash": "hDr2DZjpe51d/uW3Cb1w11Qw/pnLZecwpmAseZa+BB4k8F3bvpv/w1e9tPYqyyvEWK8iWeHtu89eU32PWPQB3g==",
   "success": true,
-  "projectFilePath": "D:\\workspace\\DotNetMicroServices\\Basket.API\\Basket.API.csproj",
+  "projectFilePath": "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Basket.API\\Basket.API.csproj",
   "expectedPackageFiles": [
     "D:\\Program Files\\nuget\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "D:\\Program Files\\nuget\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
