@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   basket.api:
-    container_name: Basket.API
+    container_name: Basket.API_1_1
     build:
       labels:
         com.microsoft.created-by: "visual-studio"

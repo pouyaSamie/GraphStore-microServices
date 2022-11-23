@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "zImUS0RFUYaTNxoz4Kl4A9VHNK2j3QwEm8n/1+zvDRVRyPfZjccDOpsj8ngmSC3euz/vQUr/KLfLxSwax7X9Zg==",
+  "success": true,
+  "projectFilePath": "D:\\workspace\\MicroServices.Net\\DotNetMicroServices\\Discount.API\\Discount.API.csproj",
+  "expectedPackageFiles": [
+    "D:\\Program Files\\nuget\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "D:\\Program Files\\nuget\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "D:\\Program Files\\nuget\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "D:\\Program Files\\nuget\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "D:\\Program Files\\nuget\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "D:\\Program Files\\nuget\\npgsql\\7.0.0\\npgsql.7.0.0.nupkg.sha512",
+    "D:\\Program Files\\nuget\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "D:\\Program Files\\nuget\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "D:\\Program Files\\nuget\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "D:\\Program Files\\nuget\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "D:\\Program Files\\nuget\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

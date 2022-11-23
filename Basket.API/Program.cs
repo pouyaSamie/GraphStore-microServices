@@ -20,8 +20,7 @@ namespace Basket.API
             
             builder.Services.AddStackExchangeRedisCache(options =>
             {
-                var z = builder.Configuration.GetSection("Basket.API");
-                options.Configuration = builder.Configuration.GetValue<string>("CacheSettings:ConnectionString");
+               options.Configuration = builder.Configuration.GetValue<string>("CacheSettings:ConnectionString");
             });
             builder.Services.AddScoped<IBasketRepository, BasketRepository>();
             builder.Services.AddSwaggerGen(c =>

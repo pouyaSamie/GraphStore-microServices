@@ -3,7 +3,7 @@ version: '3.4'
 services:
   basket.api:
     image: basketapi:dev
-    container_name: Basket.API
+    container_name: Basket.API_1_1
     build:
       target: base
       labels:
