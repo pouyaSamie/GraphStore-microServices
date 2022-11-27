@@ -1,0 +1,147 @@
+name: dockercompose8995123243639753487
+services:
+  basket.api:
+    build:
+      context: D:\workspace\MicroServices.Net\DotNetMicroServices
+      dockerfile: Basket.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: basketapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+  basketdb:
+    image: redis:alpine
+    networks:
+      default: null
+  catalog.api:
+    build:
+      context: D:\workspace\MicroServices.Net\DotNetMicroServices
+      dockerfile: Catalog.API/Dockerfile
+    container_name: catalogapi
+    depends_on:
+      catalogdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CatalogDatabaseSettings:ConnectionString: mongodb://catalogdb:27017
+    image: catalogapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: /.microsoft/usersecrets/
+      target: /root/.microsoft/usersecrets
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /.aspnet/https
+      target: /root/.aspnet/https
+      bind:
+        create_host_path: true
+  catalogdb:
+    container_name: catalogdb
+    image: mongo
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /site
+      target: /data/db
+      bind:
+        create_host_path: true
+  discount.api:
+    build:
+      context: D:\workspace\MicroServices.Net\DotNetMicroServices
+      dockerfile: Discount/Discount.API/Dockerfile
+    image: discountapi
+    networks:
+      default: null
+  discountdb:
+    container_name: discountdb
+    environment:
+      POSTGRES_DB: DiscountDb
+      POSTGRES_PASSWORD: 123qwe!@#QWE
+      POSTGRES_USER: admin
+    image: postgres
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: postgres_data
+      target: /var/lib/postgresql/data
+      volume: {}
+  pgadmin:
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pouya@samie.uk
+      PGADMIN_DEFAULT_PASSWORD: 123qwe!@#QWE
+    image: dpage/pgadmin4
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5050"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: pgadmin_data
+      target: /root/.pgadmin
+      volume: {}
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8000
+      published: "8080"
+      protocol: tcp
+    - mode: ingress
+      target: 9000
+      published: "9000"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /var/run/docker.sock
+      target: /var/run/docker.sock
+      bind:
+        create_host_path: true
+    - type: volume
+      source: portainer_data
+      target: /data
+      volume: {}
+networks:
+  default:
+    name: dockercompose8995123243639753487_default
+volumes:
+  pgadmin_data:
+    name: dockercompose8995123243639753487_pgadmin_data
+  portainer_data:
+    name: dockercompose8995123243639753487_portainer_data
+  postgres_data:
+    name: dockercompose8995123243639753487_postgres_data

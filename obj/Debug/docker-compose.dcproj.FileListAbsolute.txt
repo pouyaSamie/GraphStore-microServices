@@ -74,3 +74,10 @@ D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Basket.API.pdb
 D:\workspace\MicroServices.Net\DotNetMicroServices\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 D:\workspace\MicroServices.Net\DotNetMicroServices\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\workspace\MicroServices.Net\DotNetMicroServices\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Discount.API.deps.json
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Discount.API.runtimeconfig.json
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Discount.API.exe
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Discount.API.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Npgsql.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Dapper.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Discount.API.pdb
