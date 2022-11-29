@@ -34,14 +34,7 @@ services:
       context: .
       dockerfile: Discount.API/Dockerfile
 
-  apigateway:
-    image: ${DOCKER_REGISTRY-}apigateway
-    build:
-      context: .
-      dockerfile: APIGateway/Dockerfile
-
 volumes:
    portainer_data:
    postgres_data:
    pgadmin_data:
-
