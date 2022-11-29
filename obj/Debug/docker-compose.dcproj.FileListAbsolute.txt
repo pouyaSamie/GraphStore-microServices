@@ -81,3 +81,16 @@ D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Discount.API.dll
 D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Npgsql.dll
 D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Dapper.dll
 D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Discount.API.pdb
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\APIGateway.deps.json
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\APIGateway.runtimeconfig.json
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Ocelot.Development.json
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\APIGateway.exe
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\APIGateway.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Ocelot.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\FluentValidation.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\Newtonsoft.Json.Bson.dll
+D:\workspace\MicroServices.Net\DotNetMicroServices\bin\Debug\APIGateway.pdb
